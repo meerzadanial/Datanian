@@ -31,50 +31,50 @@
 
   <body> 
     <!-- Navbar -->
-<nav class="navbar navbar-expand-lg sticky-top"   aria-label="Offcanvas navbar small" style="border:1px solid rgba(0,0,0,0.2)">
-  <div class="container-fluid">
-   <a class="navbar-brand" href="index.html"> <img src="assets/datanian.png" alt=""></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
-      <div class="offcanvas-header ">
-        <h5 class="offcanvas-title text-dark" id="offcanvasNavbar2Label">Datanian</h5>
-        <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
-      <div class="offcanvas-body" style="color-scheme:inherit;">
-        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html">Home</a>
-          </li>
+    <nav class="navbar navbar-expand-lg sticky-top"   aria-label="Offcanvas navbar small" style="border:1px solid rgba(0,0,0,0.2)">
+      <div class="container-fluid">
+       <a class="navbar-brand" href="index.html"> <img src="assets/datanian.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+          <div class="offcanvas-header ">
+            <a class="navbar-brand" href="index.html"> <img src="assets/datanian.png" alt=""></a>
+            <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body" style="color-scheme:inherit;">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="agriculture.html">Agriculture</a>
-          </li>
+              <li class="nav-item">
+                <a class="nav-link" href="agriculture.html">Agriculture</a>
+              </li>
 
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Other Industries
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="weather.html">Weather</a></li>
-              <li><a class="dropdown-item" href="#">Aviation</a></li>                  
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Other Industries
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="weather.html">Weather</a></li>
+                  <li><a class="dropdown-item" href="">Aviation</a></li>                  
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
             </ul>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-        
+            
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</nav>
+    </nav>
 
     <!-- Carousel-->
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
@@ -183,13 +183,7 @@
                     <p class="text-center p-4 desc">Datanian AWS is the world’s leading professional and best quality weather station. We provide the best quality sensors in the field of meteorology which give reliable and accurate outputs.</p>
                   </div>
                
-                  <div class="slider-card">
-                    <div class="d-flex justify-content-center align-items-center mb-4">
-                      <img src="assets/under construct.gif" alt="" class="img-fluid img-resize" style="width: 50%; height:100px;">
-                    </div>
-                    <h5 class="mb-0 text-center">Coming Soon</h5>
-                    <p class="text-center p-4 desc"></p>
-                  </div>
+              
 
                   </div>
                 </div>
@@ -321,11 +315,11 @@
 <!--footer-->
 <div style="background-color: #2e2e2e ">
   <div class="container" style="color: #0ce6aa;">
-    <footer class="py-5">
+    <footer class="pad" style="padding-bottom: 10px; padding-top:40px;">
       <div class="row">
         <div class="col-6 col-md-2 mb-3">
           <h5 style="padding-bottom: 20px;">Agriculture</h5>
-          <ul class="nav flex-column custom-link">
+          <ul class="nav flex-column">
                <li class="nav-item mb-2"><a href="agriculture.html" class="nav-link p-0 text-white" >Precision Farming</a></li>
             <li class="nav-item mb-2"><a href="agriculture.html" class="nav-link p-0 text-white">Agriculture</a></li>
           </ul>
@@ -335,7 +329,7 @@
           <h5 style="padding-bottom: 20px;">Other Industries</h5>
           <ul class="nav flex-column">
             <li class="nav-item mb-2"><a href="weather.html" class="nav-link p-0 text-white">Weather</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Aviation</a></li>
+            <li class="nav-item mb-2"><a href="aviation.html" class="nav-link p-0 text-white">Aviation</a></li>
           </ul>
         </div>
   
@@ -361,21 +355,22 @@
         </div>
       </div>
   
-      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top text-white">
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-2 my-1 border-top text-white">
         <p>© 2023 Datanian Sdn. Bhd. All rights reserved.</p>
         <ul class="list-unstyled list-inline">
           <li class="list-inline-item">
+            <!--
             <a href="" class="btn-floating" btn-sm text-white style="font-size:23px;"><i class="fab fa-facebook" style="color: #ffffff;"></i></a>
           </li>
-
+-->
           <li class="list-inline-item">
             <a href="" class="btn-floating" btn-sm text-white style="font-size:23px;"><i class="fab fa-linkedin" style="color: #ffffff;"></i></a>
           </li>
-
+<!--
           <li class="list-inline-item">
             <a href="" class="btn-floating" btn-sm text-white style="font-size:23px;"><i class="fab fa-instagram" style="color: #ffffff;"></i></a>
           </li>
-
+-->
           <li class="list-inline-item">
             <a href="" class="btn-floating" btn-sm text-white style="font-size:23px;"><i class="fa-solid fa-envelope" style="color:#ffffff"></i></a>
           </li>
@@ -383,7 +378,6 @@
       </div>   
   </div> 
 </div> 
-</footer>
 
 
 

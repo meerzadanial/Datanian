@@ -10,18 +10,14 @@
     scroll-behavior: smooth;
   }
   /* Navbar css */
-.navbar {
-  background: #ABA299;  /* fallback for old browsers */
- 
-  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ABA299); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-
-.offcanvas-header{
-  background: #ABA299;  /* fallback for old browsers */
- 
-  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ABA299); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
+  .navbar {
+    background: #ffffff;
+  }
+  
+  
+  .offcanvas-header{
+    background:#ffffff;
+  }
 
 
 .html{
@@ -139,19 +135,19 @@ a.nav-link:hover {
 
     }
 
-    @import url(https://fonts.googleapis.com/css2?family=Space+Mono:wght@100;200;300;400;500;600;700&display=swap);
+    @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700&display=swap);
 
     h2.banner-title{
     
       padding-top: 25px;  
-      font-family: 'Space Mono', monospace;
+      font-family: 'Roboto', sans-serif;
       font-weight:bold;
       font-size: 32px;
     }
     
-    @import url(https://fonts.googleapis.com/css2?family=Space+Mono:wght@100;200;300;400;500;600;700&display=swap);
+    @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700&display=swap);
       p.banner-description {
-        font-family: 'Space Mono', monospace;
+        font-family: 'Roboto', sans-serif;
         font-weight: 500;
         font-size: 20px;
         padding-bottom: 30px;

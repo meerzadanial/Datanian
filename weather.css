@@ -11,16 +11,12 @@
   }
 /* Navbar css */
 .navbar {
-  background: #ABA299;  /* fallback for old browsers */
- 
-  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ABA299); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #ffffff;
 }
 
 
 .offcanvas-header{
-  background: #ABA299;  /* fallback for old browsers */
- 
-  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ABA299); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background:#ffffff;
 }
 
 
@@ -123,6 +119,7 @@ a.nav-link:hover {
       top: 50%; /* Align the top of the caption to the middle of the carousel item */
       left: 0;
       right: 0;
+      background-color: rgba(0, 0, 0, 0.5);
       transform: translateY(-50%); /* Vertically center the caption */
       background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background */
       color: white; /* Optional: Set the text color */
@@ -135,19 +132,19 @@ a.nav-link:hover {
       font-weight: 500;     
   }
 
-  @import url(https://fonts.googleapis.com/css2?family=Space+Mono:wght@100;200;300;400;500;600;700&display=swap);
+  @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700&display=swap);
 
   h2.banner-title{
   
     padding-top: 25px;  
-    font-family: 'Space Mono', monospace;
+    font-family: 'Roboto', sans-serif;
     font-weight:bold;
     font-size: 32px;
   }
   
-  @import url(https://fonts.googleapis.com/css2?family=Space+Mono:wght@100;200;300;400;500;600;700&display=swap);
+  @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700&display=swap);
     p.banner-description {
-      font-family: 'Space Mono', monospace;
+      font-family: 'Roboto', sans-serif;
       font-weight: 500;
       font-size: 20px;
       padding-bottom: 30px;

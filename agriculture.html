@@ -43,11 +43,13 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
-          <div class="offcanvas-header ">
-            <h5 class="offcanvas-title text-dark" id="offcanvasNavbar2Label">Datanian</h5>
+          <div class="offcanvas-header">
+            <a class="navbar-brand" href="index.html"> <img src="assets/datanian.png" alt=""></a>
             <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
+          
           <div class="offcanvas-body" style="color-scheme:inherit;">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
@@ -88,15 +90,16 @@
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="assets/agriculture.jpg" class="d-block w-100 h-auto" alt="...">
+            <img src="assets/agriculture.jpg " class="d-block w-100 h-auto" alt="...">
             <div class="carousel-caption">
+              
               <h2 class="banner-title">Agriculture</h2>
               <p class="banner-description">Complete agriculture monitoring solution, near real-time monitoring, training, and consultation.</p>
             </div>
           </div>
 
           <div class="carousel-item">
-            <img src="assets/agriculture 2.jpg" class="d-block w-100 h-auto" alt="...">
+            <img src="assets/agri.jpg" class="d-block w-100 h-auto" alt="...">
             <div class="carousel-caption">
                 <h2 class="banner-title">Agriculture</h2>
                 <p class="banner-description">Complete agriculture monitoring solution, near real-time monitoring, training, and consultation.</p>
@@ -128,7 +131,7 @@
       <!-- Data Driven Precision Farming Contents-->
 
       <div class="section-background hidden">
-        <div class="team">
+        <div class="team-head">
           <div class="container">
             <div class="section-title hidden">
               <h2 style="font-weight:bold; color:#595959; padding-bottom:90px; padding-top:90px;" align="center">Why Choose Data-Driven Precision Farming?</h2>
@@ -200,7 +203,7 @@
           </div>
         </div>
       </div>
-      
+    
 
 
 
@@ -212,7 +215,7 @@
     <div class="slider">
       <div class="slidertree owl-carousel">
 
-        <div class="slider-card">
+        <div class="slider-card" style="color: #2e2e2e;">
           <div class="d-flex justify-content-center align-items-center mb-4">
             <img src="assets/pores.jpg" alt="" class="img-fluid img-resize">
           </div>
@@ -221,7 +224,7 @@
             ​power controller that can be controlled by Datanian Data Acquisition & Logger.</p>
         </div>
 
-        <div class="slider-card">
+        <div class="slider-card" style="color: #2e2e2e;">
           <div class="d-flex justify-content-center align-items-center mb-4">
             <img src="assets/smart data acquisition.jpeg" alt="" class="img-fluid img-resize">
           </div>
@@ -229,7 +232,7 @@
           <p class="text-center p-4 desc">Datanian SDB eBox is a powerful and smart data acquisition and logger that can be integrated with almost any kind of meteorological sensors and system. </p>
         </div>
 
-        <div class="slider-card">
+        <div class="slider-card" style="color: #2e2e2e;">
           <div class="d-flex justify-content-center align-items-center mb-4">
             <img src="assets/rain gauge.jpeg" alt="" class="img-fluid img-resize">
           </div>
@@ -282,13 +285,13 @@
 <!--footer-->
 <div style="background-color: #2e2e2e ">
   <div class="container" style="color: #0ce6aa;">
-    <footer class="py-5">
+    <footer class="pad" style="padding-bottom: 10px; padding-top:40px;">
       <div class="row">
         <div class="col-6 col-md-2 mb-3">
           <h5 style="padding-bottom: 20px;">Agriculture</h5>
-          <ul class="nav flex-column custom-link">
-               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white" >Precision Farming</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Agriculture</a></li>
+          <ul class="nav flex-column">
+               <li class="nav-item mb-2"><a href="agriculture.html" class="nav-link p-0 text-white" >Precision Farming</a></li>
+            <li class="nav-item mb-2"><a href="agriculture.html" class="nav-link p-0 text-white">Agriculture</a></li>
           </ul>
         </div>
   
@@ -322,21 +325,22 @@
         </div>
       </div>
   
-      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top text-white">
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-2 my-1 border-top text-white">
         <p>© 2023 Datanian Sdn. Bhd. All rights reserved.</p>
         <ul class="list-unstyled list-inline">
           <li class="list-inline-item">
+            <!--
             <a href="" class="btn-floating" btn-sm text-white style="font-size:23px;"><i class="fab fa-facebook" style="color: #ffffff;"></i></a>
           </li>
-
+-->
           <li class="list-inline-item">
             <a href="" class="btn-floating" btn-sm text-white style="font-size:23px;"><i class="fab fa-linkedin" style="color: #ffffff;"></i></a>
           </li>
-
+<!--
           <li class="list-inline-item">
             <a href="" class="btn-floating" btn-sm text-white style="font-size:23px;"><i class="fab fa-instagram" style="color: #ffffff;"></i></a>
           </li>
-
+-->
           <li class="list-inline-item">
             <a href="" class="btn-floating" btn-sm text-white style="font-size:23px;"><i class="fa-solid fa-envelope" style="color:#ffffff"></i></a>
           </li>
@@ -344,7 +348,6 @@
       </div>   
   </div> 
 </div> 
-</footer>
 
 
 
