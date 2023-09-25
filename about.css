@@ -132,7 +132,7 @@ a.nav-link:hover {
     padding-top: 60px;  
     font-family: 'Roboto Condensed', sans-serif;
     font-weight:bolder;
-    font-size: 32px;
+    font-size: 36px;
     color: #f9f4f4;
   }
   
@@ -140,7 +140,7 @@ a.nav-link:hover {
     p.banner-description {
       font-family: 'Roboto', sans-serif;
       font-weight: 500;
-      font-size: 18px;
+      font-size: 22px;
       padding-top: 15px;
     }
 
@@ -180,12 +180,10 @@ a.nav-link:hover {
 .slider .owl-item.active.center .slider-card {
   transform: scale(1.15);
   opacity: 1;
-  background: #232526;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #6e6f6f, #3e3e3e);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #6e6f6f, #3e3e3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: white;
 
 
-  color: #fff;
+  color: #2e2e2e;
 }
 
 .slider .slider-card {

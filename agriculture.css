@@ -99,38 +99,36 @@ a.nav-link:hover {
 
 /* Add this CSS to your stylesheet */
 .carousel-caption {
-    text-align: center; /* Center-align the text within the caption */
-    position: relative; /* Position the caption absolutely within the carousel item */
-    top: 49%; /* Align the top of the caption to the middle of the carousel item */
-    left: 0;
-    right: 0;
-    transform: translateY(-140%); /* Vertically center the caption */
-    
-   
-   
-    border-radius: 1%;
-  }
-
-
-  @import url(https://fonts.googleapis.com/css2?family=RobotoCondensed:wght@100;200;300;400;500;600;700&display=swap);
-
-  h2.banner-title{
+  text-align: center; /* Center-align the text within the caption */
+  position: relative; /* Position the caption absolutely within the carousel item */
+  top: 50%; /* Align the top of the caption to the middle of the carousel item */
+  left: 0;
+  right: 0;
+  transform: translateY(-150%); /* Vertically center the caption */
   
-    padding-top: 60px;  
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight:bolder;
-    font-size: 32px;
-    color: #f9f4f4;
+ 
+ 
+  border-radius: 1%;
+}
+
+@import url(https://fonts.googleapis.com/css2?family=RobotoCondensed:wght@100;200;300;400;500;600;700&display=swap);
+
+h2.banner-title{
+
+  padding-top: 60px;  
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight:bolder;
+  font-size: 36px;
+  color: #f9f4f4;
+}
+
+@import url(https://fonts.googleapis.com/css2?family=RobotoCondensed:wght@100;200;300;400;500;600;700&display=swap);
+  p.banner-description {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    padding-top: 15px;
   }
-  
-  @import url(https://fonts.googleapis.com/css2?family=RobotoCondensed:wght@100;200;300;400;500;600;700&display=swap);
-    p.banner-description {
-      font-family: 'Roboto', sans-serif;
-      font-weight: 500;
-      font-size: 18px;
-      padding-top: 15px;
-    }
-    
   
 @import url(https://fonts.googleapis.com/css2?family=Orbitron&display=swap);
 h4.point {
@@ -219,10 +217,10 @@ h4.point {
 .slider .owl-item.active.center .slider-card {
   transform: scale(1.15);
   opacity: 1;
-background: whitesmoke;
+background: white;
   
 
-color: #fff;
+color: #2e2e2e;
 }
 
 .slider .slider-card {
