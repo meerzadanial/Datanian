@@ -189,9 +189,9 @@ h4.point {
 
 } 
 
-@media(min-width:200px){
+@media (max-width: 575.98px){
   .team-head .member .pic{
-    width: 500px;
+    width: 600px;
     
    border-radius: 50%;
  
