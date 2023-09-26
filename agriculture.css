@@ -186,9 +186,17 @@ h4.point {
 .team-head .member .pic{
    width: 300px;
   border-radius: 50%;
+
 } 
 
-
+@media(min-width:200px){
+  .team-head .member .pic{
+    width: 500px;
+    
+   border-radius: 50%;
+ 
+ }
+}
 
 /* The rest of the contents*/
 .team .member{
@@ -204,6 +212,21 @@ h4.point {
   border-radius: 50%;
 } 
 
+@media(min-width:200px){
+  .team-head .member .pic{
+    width: 500px;
+    
+   border-radius: 50%;
+ 
+ }
+
+ .team .member .pic{
+  width: 500px;
+  
+ border-radius: 50%;
+
+}
+}
 
 
 /* slider banner start */
@@ -284,4 +307,4 @@ color: #2e2e2e;
   
 
 
-  
+ 
