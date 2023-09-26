@@ -135,7 +135,9 @@ h4.point {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   font-size: 24px;
-  padding-bottom: 30px;
+  padding-bottom: 10px; 
+  padding-top: 20px;
+  text-align: center;
 }
 
  @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
@@ -186,9 +188,7 @@ h4.point {
   border-radius: 50%;
 } 
 
-.team-head .member .info{
-  padding-left: 30px;
-}
+
 
 /* The rest of the contents*/
 .team .member{
@@ -204,9 +204,7 @@ h4.point {
   border-radius: 50%;
 } 
 
-.team .member .info{
-  padding-left: 30px;
-}
+
 
 /* slider banner start */
 .slider {
