@@ -182,8 +182,11 @@ a.nav-link:hover {
     opacity: 1;
   }
   
-  .form-select{
+  .form-select{      
     max-width: 300px;
+    box-shadow: 0px 2px 5px;
+     
+    
   }
 
    /* slider banner start */
