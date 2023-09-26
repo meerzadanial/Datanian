@@ -149,7 +149,7 @@ a.nav-link:hover {
     background: #ADA996;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
- padding-bottom: 20px;
+ padding-bottom: 1px;
    
   }
 
@@ -248,8 +248,32 @@ a.nav-link:hover {
   /* Set a minimum height for the sections to ensure they are centered */
   
   
-    /* Footer css */
-    
+/*Management Team Slider*/
+.slider .owl-item.active.center .slider-card1 {
+  transform: scale(1.15);
+  opacity: 1;
+  background-color: white;
+  color: #2e2e2e;
+}
+.slider .slider-card1 {
+  background: #fff;
+  padding: 0px 0px;
+  margin: 50px 15px 90px 15px;
+  border-radius: 5px;
+  box-shadow: 0 15px 45px -20px rgb(0 0 0 / 73%);
+  transform: scale(0.9);
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+
+.slider .slider-card1 img {
+  border-radius: 5px 5px 0px 0px;
+}
   
+.slider-card1 img.img-resize {
+  max-width: 50%; /* Set the maximum width */
+  max-height: 300px; /* Set the maximum height */
+  border-radius: 5px 5px 0px 0px;
+  margin-top: 20px;
+}
   
-    
