@@ -161,65 +161,37 @@ h2.banner-title{
   padding-bottom: 20px;
 }
 
+.section-background1{
+  background: #ADA996;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding-bottom: 20px;
+}
 /* First Content */
 .team-head{
  
   margin-top: 50px;
 }
 
-.team-head .member{
-  padding: 30px;
-  position: relative;
-  box-shadow: 0px 2px 15px rgba(0,0,0,0.1);
-  border-radius: 5px;
-  background: #fff;
-}
 
-.team-head .member .pic{
-   width: 300px;
-  border-radius: 50%;
-
-} 
-
-@media (max-width: 575.98px){
-  .team-head .member .pic{
-    width: 600px;
-    
-   border-radius: 50%;
- 
- }
+.card-title{
+  padding-left: 10px;
 }
 
 /* The rest of the contents*/
-.team .member{
-  padding: 30px;
-  position: relative;
-  box-shadow: 0px 2px 15px rgba(0,0,0,0.1);
-  border-radius: 5px;
-  background: #fff;
+
+
+.col-md-4 {
+  margin-bottom: 1rem;
 }
 
-.team .member .pic{
-   width: 300px;
-  border-radius: 50%;
-} 
-
-@media(min-width:200px){
-  .team-head .member .pic{
-    width: 500px;
-    
-   border-radius: 50%;
- 
- }
-
- .team .member .pic{
-  width: 500px;
-  
- border-radius: 50%;
-
+/* On smaller screens, change to a vertical layout */
+@media (max-width: 767px) {
+  .col-md-4,
+  .col-md-8 {
+    width: 100%;
+  }
 }
-}
-
 
 /* slider banner start */
 .slider {
