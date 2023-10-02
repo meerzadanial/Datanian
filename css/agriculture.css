@@ -155,9 +155,8 @@ h2.banner-title{
 }
 
 .section-background{
-  background: #ADA996;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background:url(/assets/beanstalk-bg.png);  /* fallback for old browsers */
+ 
   padding-bottom: 20px;
 }
 
@@ -169,9 +168,7 @@ h2.banner-title{
 }
 
 .section-background2{
-  background: #ADA996;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background:url(/assets/beanstalk-bg.png);  /* fallback for old browsers */
   padding-bottom: 20px;
   padding-top: 20px;
 }
