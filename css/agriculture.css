@@ -145,12 +145,12 @@ h2.banner-title{
 
 .hidden{
   opacity: 0; 
-  transition: all 1s;
+  transition: all .5s;
 }
 
 .show{
   opacity: 1;
-  transition: all 1s;
+  transition: all 1.1s;
   
 }
 
@@ -191,6 +191,7 @@ h2.banner-title{
 
 .col-md-4 {
   margin-bottom: 1rem;
+  max-width: 50%;
 }
 
 /* On smaller screens, change to a vertical layout */
@@ -224,7 +225,7 @@ color: #2e2e2e;
   box-shadow: 0 15px 45px -20px rgb(0 0 0 / 73%);
   transform: scale(0.9);
   opacity: 0.5;
-  transition: all 0.3s;
+  transition: all .5s;
 }
 
 .slider .slider-card img {
