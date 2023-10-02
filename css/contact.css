@@ -45,10 +45,10 @@
   }
   
     
-  @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap);
+  
   a.nav-link, a.nav-link.dropdown-toggle {
     color: #292929;
-   font-family: 'Montserrat', sans-serif;
+   
     font-weight:500  ;
     font-size: medium;
   }
