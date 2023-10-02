@@ -193,8 +193,7 @@ h2.banner-title{
 
 /* On smaller screens, change to a vertical layout */
 @media (max-width: 767px) {
-  .col-md-4,
-  .col-md-8 {
+  .col-md-5 {
     width: 100%;
   }
 }
