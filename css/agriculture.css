@@ -155,7 +155,7 @@ h2.banner-title{
 }
 
 .section-background{
-  background:url(/assets/beanstalk-bg.png);  /* fallback for old browsers */
+  background:url(/assets/subtlebg.png);  /* fallback for old browsers */
  
   padding-bottom: 20px;
 }
@@ -167,11 +167,7 @@ h2.banner-title{
   padding-top: 20px;
 }
 
-.section-background2{
-  background:url(/assets/beanstalk-bg.png);  /* fallback for old browsers */
-  padding-bottom: 20px;
-  padding-top: 20px;
-}
+
 /* First Content */
 .team-head{
  
@@ -180,7 +176,10 @@ h2.banner-title{
 
 
 .card-title{
-  padding-left: 10px;
+  padding-left: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 600;
 }
 
 /* The rest of the contents*/

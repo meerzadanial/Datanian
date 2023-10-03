@@ -149,14 +149,14 @@ a.nav-link:hover {
 
   
   .section-background{
-    background:url(/assets/beanstalk-bg.png);  /* fallback for old browsers */
+    background:url(/assets/subtlebg.png);  /* fallback for old browsers */
  
     padding-bottom: 1px;
    
   }
 
   .section-background-1{
-    background:url(/assets/beanstalk-bg.png);  /* fallback for old browsers */
+    background:url(/assets/subtlebg.png);  /* fallback for old browsers */
     padding-bottom: 10px;
    }
 
