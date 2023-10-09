@@ -5,8 +5,11 @@
  2: Download the source code into .zip format.
 
  3: After finish downloading, locate and open the source code folder path using the IDE mentioned.
+ 
+ 4: After setting up the source code folder path in the IDE, click run to execute the code.
+ 
 # Optional
 ---
  Before running the code, install Live Server to run the code live directly from the IDE.
 
- 4: After setting up the source code folder path in the IDE, click run to execute the code.
+
